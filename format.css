@@ -1,7 +1,29 @@
+body {
+    background:rgb(255,228,196)
+}
+
 h1 {
-    color:aqua
+    font-family: "Lucidia Handwriting", Impact, "Arial Narrow Bold", sans-serif;
+    color:rgb(178,34,34)
+}
+
+#part1 {
+    padding-top:5px;
+    padding-bottom:10px;
+}
+
+#notes {
+    color:rgb(178,34,34)
+}
+
+h3 {
+    color:rgb(178,34,34)
 }
 
 th {
-    color:firebrick
+    color:rgb(178,34,34)
+}
+
+ul {
+    background:rgb(247,215,196)
 }
