@@ -13,18 +13,18 @@
         <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/archive/9/9c/20171018065859%21Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/120px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg
             alt="Cheesecake Image">
 
-        <!-- Quantity and Topping -->
-        <table id="part1">
-            <tr>
-                <th>Quantity</th>
-                <th>Topping</th>
-            </tr>
-            <tr>
-                <form id="order">
+        <form id="order">
+            <!-- Quantity and Topping -->
+            <table id="part1">
+                <tr>
+                    <th>Quantity</th>
+                    <th>Topping</th>
+                </tr>
+                <tr>
                     <!-- Drop Down Menu -->
                     <td>
                         <select name="quantity" id="quantity" form="order">
-                            <option value="1">1</option>
+                            <option value="1">1</option>                            
                             <option value="2">2</option>
                             <option value="3">3</option>
                         </select>
@@ -38,27 +38,27 @@
                         <label for="cherry">Cherry</label><br>
                         <input type="radio" id="chocolate" name="topping" value="Chocolate">                    
                         <label for="chocolate">Chocolate</label>
-                    </td>
-                </form>    
-            </tr>
-        </table>
+                    </td>   
+                </tr>
+            </table>
 
-        <label for="instruction" id="notes">Notes:</label>
-        <table>
-            <tr id="textbox">
-                <td>                     
-                <!-- Special Instructions -->
-                    <textarea form="order" id="instructions" name="instructions" rows="5" cols="50"
-                            placeholder="Enter any special instructions here."></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <!-- Order Button -->
-                    <input type="submit" value="Order">
-                </td>
-            </tr>
-        </table>
+            <label for="instruction" id="notes">Notes:</label>
+            <table>
+                <tr id="textbox">
+                    <td>                     
+                    <!-- Special Instructions -->
+                        <textarea form="order" id="instructions" name="instructions" rows="5" cols="50"
+                                placeholder="Enter any special instructions here."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Order Button -->
+                        <input type="submit" value="Order">
+                    </td>
+                </tr>
+            </table>
+        </form>
 
         <!-- Last Month's Orders -->
         <h3>Total Orders Last Month</h3>
