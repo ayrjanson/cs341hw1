@@ -14,7 +14,7 @@
         alt="Cheesecake Image">
 
         <!-- Quantity and Topping -->
-        <form>
+        <form id="order">
             <table>
                 <tr>
                     <th>Quantity</th>
@@ -42,12 +42,16 @@
                 </tr>
             </table>
 
-        <!-- Special Instructions -->
-            <p>Notes:</p>
-            <input type="textarea" id="instructions" name="instructions" value="">
-
-        <!-- Order Button -->
-            <input type="submit" value="Order">
+        
+            <label for="instruction">Notes:</label>
+            <table>
+                <!-- Special Instructions -->
+                <textarea form="order">
+                    <input type="textarea" id="instructions" name="instructions" placeholder="Enter any special instructions here." value="">
+                </textarea>
+                <!-- Order Button -->
+                <input type="submit" value="Order">
+            </table>
         </form>
         
         <!-- Last Month's Orders -->
