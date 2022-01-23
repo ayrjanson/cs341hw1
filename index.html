@@ -74,6 +74,7 @@
                     <h3>Orders for</h3>
                 </td>
                   <td>
+                    <!-- Dropdown of Months -->  
                     <div class="dropdown"><select name="dropdown" id="selectMonth" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
                         <option value="">Jan</option>
                         <option value="">Feb</option>
@@ -101,6 +102,7 @@
             </ul>
         </div>
 
+        <!-- Order Placed with Receipt -->
         <div style="display: none;" id="thanksScreen">
             <h1>
                 Thank you! Your order has been placed.
@@ -111,6 +113,7 @@
             <p id="theInstructions"></p>
         </div>
 
+    <!-- 'Vegan' Instructions Indication -->    
     <script>
         $ ("#orderButton").click(function() {
             if ($ ("#instructions").val().toLowerCase().indexOf("vegan") != -1) {
@@ -128,6 +131,7 @@
         })
     </script>
     
+    <!-- Change of Display when Dropdown Clicked-->
     <script>
         $("#selectMonth").click(function() {
           var monthVal = href.attr();  

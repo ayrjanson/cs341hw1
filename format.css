@@ -1,38 +1,45 @@
 /* CS 341 Homework 1
     Anna Yrjanson */
 
+/* Background light brown color */    
 body {
     background:rgb(255,228,196)
 }
 
+/* Level 1 Headings */
 h1 {
     font-family: "Lucidia Handwriting", Impact, "Arial Narrow Bold", sans-serif;
     color:rgb(178,34,34)
 }
 
+/* Padding around Quantity and Topping */
 #part1 {
     padding-top:5px;
     padding-bottom:10px;
 }
 
+/* Notes Label */
 #notes {
     color:rgb(178,34,34)
 }
 
+/* Order Numbers Indication */
 h3 {
     font-family:'Courier New', Courier, monospace;
     color:rgb(178,34,34)
 }
 
+/* Table Headers */
 th {
     color:rgb(178,34,34)
 }
 
+/* Bulleted Section */
 ul {
     background:rgb(247,215,196)
 }
 
-/* Style The Dropdown Button */
+/* Dropdown Menu */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -42,14 +49,22 @@ ul {
     cursor: pointer;
   }
  
-  /* The container <div> - needed to position the dropdown content */
+  /* Centers the dropdown*/
   .dropdown {
     position: relative;
     display: inline-block;
 
   }
  
-  /* Dropdown Content (Hidden by Default) */
+  /*
+  Title: How to Create an HTML Dropdown Menu [+ Examples]
+  Author: Anna Fitzgerald
+  Date: 6/8/2021
+  Code Version: 1.0
+  Availability: https://blog.hubspot.com/website/html-dropdown
+  */
+
+  /* Dropdown (Hidden) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -59,7 +74,7 @@ ul {
     z-index: 1;
   }
  
-  /* Links inside the dropdown */
+  /* Dropdown Content */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -67,10 +82,10 @@ ul {
     display: block;
   }
  
-  /* Change color of dropdown links on hover */
+  /* Change Hover Color */
   .dropdown-content a:hover {background-color: #f1f1f1}
  
-  /* Show the dropdown menu on hover */
+  /* Dropdown Display on Hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -80,6 +95,7 @@ ul {
     background-color: #3e8e41;
   }
 
+  /* Dropdown Segments */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -89,6 +105,7 @@ ul {
       overflow: auto;
   }
 
+  /* Wrapper Around Dropdown */
   .wrapper{
     border: 1px dashed red;
     height: 150px;
@@ -97,6 +114,7 @@ ul {
     width: 150px;
  }
 
+ /* Selection */
  select {
   border: 0 none;
   color: #FFFFFF;
@@ -108,6 +126,13 @@ ul {
   width: 75px;
   background-color: rgb(119, 22, 46);
 }
+
+/*
+  Title: How TO - Custom Scrollbar
+  Author: W3 Schools
+  Code Version: 1.0
+  Availability: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+  */
 
 .dropdown {
   overflow: hidden;
